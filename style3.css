@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tag {
+    border: 1px solid rgba(red, blue, green, .04);
+    border-radius: 14px;
+    opacity: .9;
+    margin-top: 95px;
+    padding: 40px 50px;
+    outline: none;
+    background-image: url("https://i.pinimg.com/564x/4b/fc/65/4bfc655d8840cfc67b35567d767cd09f.jpg");
+    width: 40%;
+    height: 350px;
+    margin-left: 350px;
+}
+
+input {
+    margin: 5px 5px 5px 5px;
+    padding: 20px 20px;
+    color: grey;
+    border-radius: 10px;
+    outline: none;
+}
+
+#shivam {
+    color: coral;
+    background-color: cornflowerblue;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#shivam:hover {
+    background-color: aqua;
+    color: brown;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+h1 {
+    border: 1px solid rgba(red, blue, green, .4);
+    color: black;
+    font-size: 130px;
+}

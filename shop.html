@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href=""><img src="data:image/jpeg;base64,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"
+                alt="" height="50px"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href=""><i class="far fa-shopping-bag"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="page-header">
+
+        <h2>#stayhome</h2>
+        <p>save more with upon & up to 70% off!</p>
+
+    </section>
+    <section id="product1" class="section-p">
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/shopsy-t-shirt/x/g/8/xl-skb-try-this-original-imag6hqngemxvfst-bb.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/b/s/8/m-t410-bllafb-eyebogler-original-imagf6qcnavh29vv-bb.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$76</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/kkfrjww0/t-shirt/t/v/v/3xl-t312-blrdwh-eyebogler-original-imafzs5kmgcytfsv.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$58</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/kybvo280/t-shirt/m/c/h/s-fc4271-fastcolors-original-imagakxazda7acwh.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$68</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/kflftzk0-0/t-shirt/i/g/5/m-139a-yellow-eppe-original-imafwyfcahhysekh.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$40</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/x/3/k/s-tbgrrn-d45-tripr-original-imaggcfz59tgctza.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$54</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/s/9/f/l-bylrn-z31-blive-original-imaggcfx6mshgcsp.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$24</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/l0e6kcw0/t-shirt/m/v/1/xl-half-triangel-black-one-nb-nicky-boy-original-imagc748kbszkvbz.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$34</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/kd1zngw0/t-shirt/u/c/g/xl-kttwomenstshirt115-kotty-original-imafufy4eunuxw4a.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$70</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/l4zxn680/t-shirt/i/l/o/s-must-neck-true-basket-original-imagfrhgfgfyydwe.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$72</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/l111lzk0/t-shirt/t/k/r/m-jc-wn22-hd-fs-crop-mrn-sld-space-jump-cuts-original-imagczwk2nh3kh6q.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$18</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/k5o7r0w0/t-shirt/z/8/n/l-thats-my-best-friends-women-combo-t-shirt-l-mfb-original-imafm7gd2rhfhqzm.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$98</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/a/r/f/m-girl1-heaven-storm-original-imagga27sxbckq9k.jpeg?q=70" width="50px" height="150px" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$40</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/x/3/k/s-tbgrrn-d45-tripr-original-imaggcfz59tgctza.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$54</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/l45xea80/t-shirt/d/l/x/l-enbbaplen60012000-ennoble-original-imagf4h3ehhqztue.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$14</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/a/a/4/xl-ts-001-mackie-mills-original-imaggggftzz7g7qe.jpeg?q=70" alt="" height="150px" width="50px">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$24</h4>
+                </div>
+                <a href=""><i class="fal fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="pagination" class="section-p">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
+
+    </section>
+    <section id="newlatter">
+        <div class="banner-box4">
+            <h4>SignUp For Newletters</h4>
+            <p>Get E-mail updates about our latest shop and special offer</p>
+        </div>
+        <div class="form">
+            <input type="text" name="aman" placeholder="your email address">
+            <button>Sign Up</button>
+        </div>
+    </section>
+    <section id="footer9">
+        <div class="ankit">
+            <img src="data:image/jpeg;base64,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"
+                alt="" height="40px" width="40px">
+            <h4>Contact</h4>
+            <p><strong>Phone:</strong> +917687453456</p>
+            <p><strong>Hour:</strong>10:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="ankit">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+
+            <a href="#">Privacy policy</a>
+
+            <a href="#">Term 7 Conditions</a>
+            <a href="#">Contactn Us</a>
+        </div>
+        <div class="ankit">
+            <h4>About</h4>
+            <a href="#">My Account</a>
+            <a href="#">Sign In</a>
+
+            <a href="#">View Cart</a>
+
+            <a href="#">My Wishlist</a>
+            <a href="#">Track Order</a>
+            <a href="#">Help</a>
+
+
+
+        </div>
+        <div class="ankit">
+            <h4>Install App</h4>
+            <p>from App Store or Google Play Store</p>
+            <div class="row">
+                <img src="data:image/png;base64,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"
+                    alt="" width="150px" height="80px">
+                <img src="https://play.google.com/about/howplayworks/static/assets/social/share_google_play_logo.png" alt="" height="80px" width="150px">
+            </div>
+            <p>Secure Payment Gateways
+
+            </p>
+            <img src="https://thumbs.dreamstime.com/b/kiev-ukraine-march-payment-system-logos-maestro-paypal-jcb-apple-pay-google-mastercard-visa-amazon-skrill-western-union-wallet-220009160.jpg" alt="" height="100px" width="250px">
+
+        </div>
+    </section>
+
+
+
+
+
+
+</body>
+
+</html>
